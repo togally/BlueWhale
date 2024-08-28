@@ -1,4 +1,4 @@
-baseURL = ' https://togally.github.io/BlueWahle/'
+baseURL = 'https://togally.github.io/BlueWahle/'
 languageCode = 'en-us'
 title = 'BlowWhale'
 theme = 'blowfish'
