@@ -4,7 +4,7 @@
 
 theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = 'https://togally.github.io/BlueWhale/'
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-CN"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
@@ -65,3 +65,6 @@ applyFilter = false
 name = 'fragmentrefs'
 type = 'fragments'
 weight = 10
+
+[params]
+logo = "https://avatars.githubusercontent.com/u/33048626?s%E2%80%A600&u=2ee08ce248df82e6f5574483cfe812d9455f0f4a&v=4" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur

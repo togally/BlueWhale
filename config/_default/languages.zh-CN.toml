@@ -1,10 +1,19 @@
-languageCode = "en"
-languageName = "English"
+languageCode = "zh-CN"
+languageName = "简体中文"
 weight = 1
-title = "BlueWhale🐳"
+title = "鲸云🐳"
+
+[author]
+name = "My name"
+image = "img/author.jpg"
+headline = "A generally awesome human"
+bio = "A little bit about me"
+links = [
+  { twitter = "https://twitter.com/username" }
+]
 
 [params]
-  displayName = "EN"
+  displayName = "zh-CN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
