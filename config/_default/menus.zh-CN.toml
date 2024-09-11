@@ -9,63 +9,34 @@
 # By default the menu is ordered alphabetically. This can be
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
+[[main]]
+name = "主页"
+pageRef = "posts"
+weight = 10
 
 [[main]]
   name = "博客"
   pageRef = "posts"
   weight = 10
+
+[[main]]
+  name = "分类"
+  pageRef = "categories"
+  weight = 20
+
 [[main]]
   name = "标签"
   pageRef = "tags"
+  weight = 20
+
+[[main]]
+  name = "项目"
   weight = 30
-#[[main]]
-#  name = "Parent"
-#  weight = 20
-#
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-#
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
-#
-#[[subnavigation]]
-#  name = "My Awesome Category"
-#  pre = "github"
-#  pageRef = "categories/awesome"
-#  weight = 20
-
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
-#
-
-
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
-
-
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
-#
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+[[main]]
+  name = "暂时还没有项目哦"
+  parent = "项目"
+  pageRef = "posts"
+  weight = 10
 
  [[footer]]
    pre = "github"
