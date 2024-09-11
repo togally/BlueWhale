@@ -10,33 +10,21 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 [[main]]
-name = "主页"
-pageRef = "posts"
-weight = 10
-
-[[main]]
-  name = "博客"
-  pageRef = "posts"
+  title = "鲸云🐳"
+  name = "主页"
+  pageRef = "/"
   weight = 10
-
 [[main]]
+  title = "鲸云🐳的博客"
   name = "分类"
   pageRef = "categories"
   weight = 20
 
 [[main]]
+  title = "鲸云🐳的博客"
   name = "标签"
   pageRef = "tags"
   weight = 20
-
-[[main]]
-  name = "项目"
-  weight = 30
-[[main]]
-  name = "暂时还没有项目哦"
-  parent = "项目"
-  pageRef = "posts"
-  weight = 10
 
  [[footer]]
    pre = "github"

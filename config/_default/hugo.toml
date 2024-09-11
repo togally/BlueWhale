@@ -23,10 +23,10 @@ enableEmoji = true
 anchor = 'Center'
 
 [taxonomies]
-tag = "tags"
-category = "categories"
-author = "togally"
-series = "series"
+    tag = "tags"
+    category = "categories"
+    author = "togally"
+    series = "series"
 
 [sitemap]
 changefreq = 'daily'

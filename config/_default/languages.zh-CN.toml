@@ -4,13 +4,13 @@ weight = 1
 title = "鲸云🐳"
 
 [author]
-name = "My name"
-image = "img/author.jpg"
-headline = "A generally awesome human"
-bio = "A little bit about me"
-links = [
-  { twitter = "https://twitter.com/username" }
-]
+  name = "My name"
+  image = "img/author.jpg"
+  headline = "A generally awesome human"
+  bio = "A little bit about me"
+  links = [
+    { twitter = "https://twitter.com/username" }
+  ]
 
 [params]
   displayName = "zh-CN"
