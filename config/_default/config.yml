@@ -1,5 +1,5 @@
 theme: "blowfish" # UNCOMMENT THIS LINE
-baseURL: 'https://bluewhale.togally.site/'
+baseURL: 'https://togally.site/'
 defaultContentLanguage: "zh-CN"
 
 enableRobotsTXT: true
