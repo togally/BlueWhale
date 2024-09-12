@@ -1,7 +1,7 @@
 +++
-title = '栈入门'
-tags = ['栈']
-series = ["数据结构"]
+title = '一文读懂栈'
+tags = ['数据结构-栈']
+series = ["重学数据结构"]
 categories = ['编程开发']
 series_order = 2
 date = 2024-09-11T23:06:12+08:00

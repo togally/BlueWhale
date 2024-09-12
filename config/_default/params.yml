@@ -28,6 +28,8 @@ footer:
   showScrollToTop: true
 
 list:
+  showCards: true
+  constrainItemsWidth: true
   showSummary: false
   showViews: false
   showLikes: false
@@ -55,3 +57,12 @@ term:
   groupByYear: false
   cardView: false
   cardViewScreenWidth: false
+
+firebase:
+  apiKey: "AIzaSyDH7BfPcuRiOL0bI6TR8lQHLldsxrM80P4"
+  authDomain: "bluewhale-dd4c4.firebaseapp.com"
+  projectId: "bluewhale-dd4c4"
+  storageBucket: "bluewhale-dd4c4.appspot.com"
+  messagingSenderId: "490097134016"
+  appId: "1:490097134016:web:2dd371606a7e43ea04e025"
+  measurementId: "G-68P2RNGFHJ"
