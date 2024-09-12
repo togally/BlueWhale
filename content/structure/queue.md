@@ -3,7 +3,7 @@ title = '队列简介'
 tags = ['队列']
 series = ["数据结构"]
 categories = ['编程开发']
-series_order = 11
+series_order = 2.1
 date = 2024-09-11T23:06:12+08:00
 draft = false
 showComments = false
@@ -25,7 +25,7 @@ showComments = false
 虽然我们采用数组来作为数据存储的基本结构，但是由于队列的使用过程中头尾指针是动态的。
 
 所以我们很容一造成头指针到index = 0 之间的空间浪费
-![pop](https://raw.githubusercontent.com/togally/bookLearning/master/src/main/resources/assets/structure/queue/circleQueue_01.png)
+![pop](structure/circleQueue_01.png)
 
 因此我们采用 尾指针 = (尾指针 + 1) % data.length的方式来移动尾指针，让尾指针可以循环起来
 
