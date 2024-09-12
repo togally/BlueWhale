@@ -1,7 +1,16 @@
 colorScheme: Blowfish
-logo: https://avatars.githubusercontent.com/u/33048626?s%E2%80%A600&u=2ee08ce248df82e6f5574483cfe812d9455f0f4a&v=4
+#logo: logo.jpeg
 defaultAppearance: dark
 enableSearch: true
+
+author:
+  name: "zhiwei.jia"
+  image: "https://avatars.githubusercontent.com/u/33048626?s%E2%80%A600&u=2ee08ce248df82e6f5574483cfe812d9455f0f4a&v=4"
+  headline: "为往圣继绝学"
+  bio: "A little bit about me"
+  links:
+    - github: "https://github.com/togally"
+    - blogger: ""
 
 homepage:
   layout: profile
