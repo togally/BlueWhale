@@ -8,4 +8,4 @@ showLikes = false
 showAuthor = false
 showReadingTime = false
 +++
-{{< github repo="togally/bookLearning" >}}
+{{< github repo="togally/BlueWhale" >}}
