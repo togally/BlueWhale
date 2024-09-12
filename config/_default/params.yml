@@ -10,7 +10,7 @@ author:
   bio: "为往圣继绝学"
   links:
     - github: "https://github.com/togally"
-    - blogger: ""
+    - zhihu: "https://www.zhihu.com/people/jzw-1-56"
 
 homepage:
   layout: profile
@@ -33,11 +33,10 @@ list:
   showLikes: false
 
 article:
+  showDate: false
   showViews: true
   showLikes: true
-  showDateOnlyInArticle: true
   showAuthor: true
-  showBreadcrumbs: true
   invertPagination: true
   showTableOfContents: true
   showTaxonomies: true
