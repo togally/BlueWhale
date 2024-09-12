@@ -1,0 +1,62 @@
+colorScheme: Blowfish
+logo: https://avatars.githubusercontent.com/u/33048626?s%E2%80%A600&u=2ee08ce248df82e6f5574483cfe812d9455f0f4a&v=4
+defaultAppearance: dark
+enableSearch: true
+
+homepage:
+  layout: profile
+  showRecent: false
+
+header:
+  layout: basic
+  showAppearanceSwitcher: true
+
+footer:
+  showMenu: true
+  showCopyright: true
+  showThemeAttribution: true
+  showAppearanceSwitcher: true
+  showScrollToTop: true
+
+list:
+  showSummary: false
+  showViews: false
+  showLikes: false
+
+article:
+  showDate: true
+  showViews: false
+  showLikes: false
+  showDateOnlyInArticle: false
+  showDateUpdated: false
+  showAuthor: true
+  showHero: false
+  layoutBackgroundBlur: true
+  layoutBackgroundHeaderSpace: true
+  showBreadcrumbs: false
+  showDraftLabel: true
+  showEdit: false
+  editAppendPath: true
+  seriesOpened: false
+  showHeadingAnchors: true
+  showPagination: true
+  invertPagination: false
+  showReadingTime: true
+  showTableOfContents: false
+  showTaxonomies: false
+  showAuthorsBadges: false
+  showWordCount: true
+  showZenMode: false
+
+taxonomy:
+  showSummary: true
+
+term:
+  showSummary: true
+  showBreadcrumbs: false
+  showViews: false
+  showLikes: false
+  showTableOfContents: true
+  groupByYear: false
+  cardView: false
+  cardViewScreenWidth: false

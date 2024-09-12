@@ -1,0 +1,18 @@
+languageCode: zh-CN
+languageName: "简体中文"
+weight: 1
+title: "鲸云🐳"
+    
+author:
+  name: "My name"
+  image: "https://avatars.githubusercontent.com/u/33048626?s%E2%80%A600&u=2ee08ce248df82e6f5574483cfe812d9455f0f4a&v=4"
+  headline: "A generally awesome human"
+  bio: "A little bit about me"
+  links:
+    - twitter: "https://twitter.com/username"
+    
+params:
+  displayName: "zh-CN"
+  isoCode: "zh-CN"
+  rtl: false
+  dateFormat: "2 January 2006"

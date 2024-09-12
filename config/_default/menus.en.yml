@@ -1,0 +1,15 @@
+main:
+   - name: Home
+     pageRef: /
+     weight: 1
+   - name: Categories
+     pageRef: categories
+     weight: 2
+   - name: Tags
+     pageRef: tags
+     weight: 3
+footer:
+   - pre: github
+     name: GitHub
+     url: https://github.com/togally
+     weight: 1
