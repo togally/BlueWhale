@@ -59,7 +59,7 @@ term:
   cardViewScreenWidth: false
 
 firebase:
-  apiKey: "AIzaSyA74i1CpEW8Dc-sCb6DV71DjLzClBGT9O0",
+  apiKey: "AIzaSyA74i1CpEW8Dc-sCb6DV71DjLzClBGT9O0"
   authDomain: "blog-363315.firebaseapp.com"
   projectId: "blog-363315"
   storageBucket: "blog-363315.appspot.com"
