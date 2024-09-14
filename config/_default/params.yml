@@ -44,6 +44,7 @@ article:
   showTaxonomies: true
   showWordCount: false
   showZenMode: false
+  showComments: true
 
 taxonomy:
   showSummary: true
