@@ -1,5 +1,5 @@
 +++
-title = 'nginx配置https证书'
+title = 'nginx配置代理转发流量'
 tags = ['nginx']
 series = ["nginx"]
 series_order = 1
