@@ -1,11 +1,9 @@
 +++
 title = '大白话解析MQTT协议'
 date = 2024-09-14T23:23:58+08:00
-tags = ['计算机网络']
 series = ["计算机网络"]
 series_order = 1
 order = 1
-categories = ['编程开发']
 draft = false
 +++
 # MQTT协议入门

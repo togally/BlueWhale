@@ -1,10 +1,9 @@
 +++
 title = 'nginx配置代理转发流量'
 tags = ['nginx']
-series = ["nginx"]
+series = ["运维"]
 series_order = 1
 order = 1
-categories = ['编程开发']
 draft = false
 +++
 # nginx配置代理转发流量

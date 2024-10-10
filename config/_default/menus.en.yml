@@ -2,12 +2,9 @@ main:
    - name: Home
      pageRef: /
      weight: 1
-   - name: Categories
-     pageRef: categories
+   - name: Blog
+     pageRef: series
      weight: 2
-   - name: Tags
-     pageRef: tags
-     weight: 3
 footer:
    - pre: github
      name: GitHub
