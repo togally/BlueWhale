@@ -1,8 +1,6 @@
 +++
 title = '5分钟掌握lambda表达式与函数式编程'
-tags = ['java','lambda表达式','函数式编程']
 series = ["java"]
-categories = ['编程开发']
 date = 2024-09-14T23:09:00+08:00
 draft = false
 +++

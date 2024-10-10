@@ -7,14 +7,6 @@ main:
     title: 鲸云🐳的博客
     pageRef: series
     weight: 2
-  - name: 分类
-    title: 鲸云🐳的博客
-    pageRef: categories
-    weight: 3
-  - name: 标签
-    title: 鲸云🐳的博客
-    pageRef: tags
-    weight: 4
 footer:
   - pre: github
     name: GitHub

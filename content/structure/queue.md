@@ -1,8 +1,6 @@
 +++
 title = '一文读懂队列'
-tags = ['数据结构-队列']
 series = ["重学数据结构"]
-categories = ['编程开发']
 series_order = 1
 date = 2024-09-11T23:06:12+08:00
 draft = false

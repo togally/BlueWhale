@@ -1,10 +1,8 @@
 +++
 title = '使用gitee的webhook实现提交代码后自动部署项目'
-tags = ['webhook']
-series = ["CI/CD"]
+series = ["运维"]
 series_order = 1
 order = 1
-categories = ['编程开发']
 draft = false
 +++
 ## 业务背景
