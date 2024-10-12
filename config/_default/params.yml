@@ -13,8 +13,8 @@ author:
     - zhihu: "https://www.zhihu.com/people/jzw-1-56"
 
 homepage:
-  layout: profile
-  showRecent: false
+  layout: hero
+  showRecent: true
 
 header:
   layout: basic
