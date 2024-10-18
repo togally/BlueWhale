@@ -1,6 +1,6 @@
 colorScheme: Blowfish
 #logo: logo.jpeg
-defaultAppearance: dark
+defaultAppearance: light
 enableSearch: true
 
 author:
