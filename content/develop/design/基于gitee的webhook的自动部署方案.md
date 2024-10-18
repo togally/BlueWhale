@@ -1,6 +1,6 @@
 +++
-title = '使用gitee的webhook实现提交代码后自动部署项目'
-series = ["运维"]
+title = '基于gitee的webhook的自动部署方案'
+series = ["设计方案"]
 series_order = 1
 order = 1
 draft = false

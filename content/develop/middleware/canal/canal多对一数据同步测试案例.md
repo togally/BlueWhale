@@ -1,6 +1,6 @@
 +++
 title = 'Canal多对一数据同步测试案例'
-series = ["canal"]
+series = ["中间件"]
 series_order = 2
 order = 2
 date = 2024-09-14T09:16:50+08:00

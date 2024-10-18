@@ -1,6 +1,6 @@
 +++
-title = '一文读懂队列'
-series = ["重学数据结构"]
+title = '队列'
+series = ["数据结构"]
 series_order = 1
 date = 2024-09-11T23:06:12+08:00
 draft = false

@@ -1,7 +1,7 @@
 +++
-title = '大白话解析MQTT协议'
+title = 'MQTT协议'
 date = 2024-09-14T23:23:58+08:00
-series = ["计算机网络"]
+series = ["网络编程"]
 series_order = 1
 order = 1
 draft = false

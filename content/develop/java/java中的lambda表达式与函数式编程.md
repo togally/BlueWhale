@@ -1,6 +1,6 @@
 +++
-title = '5分钟掌握lambda表达式与函数式编程'
-series = ["java"]
+title = 'java中的lambda表达式与函数式编程'
+series = ["编程语言"]
 date = 2024-09-14T23:09:00+08:00
 draft = false
 +++

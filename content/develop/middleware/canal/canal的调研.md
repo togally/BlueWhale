@@ -1,6 +1,6 @@
 +++
 title = 'canal调研'
-series = ["canal"]
+series = ["中间件"]
 series_order = 1
 order = 1
 date = 2024-09-13T09:29:49+08:00
