@@ -1,7 +1,7 @@
 +++
 title = 'java项目中的List类型数据存储设计'
 date = 2024-10-16T16:30:25+08:00
-series = ["方案设计"]
+series = ["设计方案"]
 tags = ['mybatis']
 draft = false
 +++
