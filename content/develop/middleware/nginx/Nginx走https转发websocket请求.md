@@ -1,9 +1,9 @@
 +++
 title = 'Nginx走https转发websocket请求'
 date = 2024-10-24T16:05:03+08:00
-tags = ['nginx']
+tags = ['nginx','运维']
 series = ["中间件"]
-draft = true
+draft = false
 +++
 ## 问题背景
 新项目需要用到websocket进行通讯,有一个问题就是脚手架提供的websocket通讯是走ws协议的也就是http,因此需要用nginx来转发https请求。

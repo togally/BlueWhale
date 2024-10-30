@@ -1,6 +1,6 @@
 +++
 title = 'nginx配置https证书'
-tags = ['nginx']
+tags = ['nginx','运维']
 series = ["中间件"]
 series_order = 1
 order = 1
