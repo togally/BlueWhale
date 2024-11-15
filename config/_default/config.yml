@@ -1,5 +1,5 @@
 theme: "blowfish" # UNCOMMENT THIS LINE
-baseURL: 'https://blog.togally.site/'
+baseURL: 'https://whalecloud.club/'
 defaultContentLanguage: "zh-CN"
 
 enableRobotsTXT: true
