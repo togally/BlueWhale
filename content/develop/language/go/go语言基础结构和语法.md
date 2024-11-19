@@ -3,7 +3,7 @@ title = 'Go语言基础结构和语法'
 series = ['开发']
 tags = ["go"]
 date = 2024-11-19T10:28:23+08:00
-draft = true
+draft = false
 +++
 
 ## 基础结构以及执行方式
