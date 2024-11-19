@@ -1,8 +1,8 @@
 +++
 title = '基于mybatis拦截器的数据权限设计'
 date = 2024-10-10T16:15:59+08:00
-series = ["设计方案"]
-tags = ['mybatis']
+tags = ['mybatis',"设计方案"]
+series = ["开发"]
 draft = true
 +++
 ## 业务背景

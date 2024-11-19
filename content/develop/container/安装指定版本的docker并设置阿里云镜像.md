@@ -1,7 +1,7 @@
 +++
 title = '安装指定版本的docker并设置阿里云镜像'
-tags = ['docker','运维']
-series = ["容器化"]
+tags = ['docker']
+series = ["开发"]
 date = 2024-11-07T17:09:46+08:00
 draft = false
 +++

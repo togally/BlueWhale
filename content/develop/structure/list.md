@@ -1,8 +1,9 @@
 +++
 title = '线性表'
-series = ["数据结构"]
+series = ["开发"]
+tags = ["数据结构"]
 date = 2024-09-19T23:25:54+08:00
-draft = false
+draft = true
 +++
 # 线性表
 ## 定义

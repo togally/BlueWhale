@@ -1,7 +1,7 @@
 +++
 title = 'nginx配置代理转发流量'
-tags = ['nginx','运维']
-series = ["中间件"]
+tags = ['nginx']
+series = ["开发"]
 series_order = 1
 order = 1
 draft = false

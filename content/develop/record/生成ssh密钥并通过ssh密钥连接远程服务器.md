@@ -1,6 +1,6 @@
 +++
 title = '生成ssh密钥并通过ssh密钥连接远程服务器'
-series = ["问题记录"]
+series = ["开发"]
 tags = ['ssh','运维']
 date = 2024-10-30T14:24:09+08:00
 draft = false

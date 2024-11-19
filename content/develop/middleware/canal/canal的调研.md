@@ -1,6 +1,6 @@
 +++
 title = 'canal调研'
-series = ["中间件"]
+series = ["开发"]
 tags = ['canal']
 series_order = 1
 order = 1

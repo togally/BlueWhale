@@ -1,6 +1,7 @@
 +++
 title = '栈'
-series = ["数据结构"]
+series = ["开发"]
+tags = ["数据结构"]
 series_order = 2
 date = 2024-09-11T23:06:12+08:00
 draft = false
