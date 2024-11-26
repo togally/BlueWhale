@@ -2,7 +2,6 @@
 title = 'Nginx走https转发websocket请求'
 date = 2024-10-24T16:05:03+08:00
 tags = ['nginx','websocket']
-series = ["开发"]
 draft = false
 +++
 ## 问题背景

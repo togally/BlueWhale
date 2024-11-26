@@ -1,7 +1,7 @@
 +++
 title = 'MQTT协议'
 date = 2024-09-14T23:23:58+08:00
-series = ["开发"]
+series = ["网络协议"]
 tags = ["网络编程"]
 series_order = 1
 order = 1

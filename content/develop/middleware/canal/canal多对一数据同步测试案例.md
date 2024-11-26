@@ -1,6 +1,6 @@
 +++
 title = 'Canal多对一数据同步测试案例'
-series = ["开发"]
+series = ["cannal应用分析"]
 tags = ['canal']
 series_order = 2
 order = 2

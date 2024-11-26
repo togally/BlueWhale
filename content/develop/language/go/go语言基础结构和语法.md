@@ -1,6 +1,6 @@
 +++
 title = 'Go语言基础结构和语法'
-series = ['开发']
+series = ['速通GO']
 tags = ["go"]
 date = 2024-11-19T10:28:23+08:00
 draft = false

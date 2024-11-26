@@ -1,7 +1,7 @@
 +++
 title = '基于gitee的webhook的自动部署方案'
-tags = ['运维',"设计方案"]
-series = ["开发"]
+tags = ['运维']
+series = ["设计方案"]
 series_order = 1
 order = 1
 draft = false

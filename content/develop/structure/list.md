@@ -1,6 +1,6 @@
 +++
 title = '线性表'
-series = ["开发"]
+series = ["数据结构"]
 tags = ["数据结构"]
 date = 2024-09-19T23:25:54+08:00
 draft = true
