@@ -5,9 +5,6 @@ main:
    - name: Blog
      pageRef: series
      weight: 2
-   - name: Tag
-     pageRef: tags
-     weight: 3
 footer:
    - pre: github
      name: GitHub
