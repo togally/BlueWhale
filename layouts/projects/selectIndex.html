@@ -7,45 +7,49 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        $(document).ready(function() {
+         $(document).ready(function() {
             // 获取试卷数据
             function fetchPapers() {
                 $.ajax({
-                    url: 'http://api.whalecloud.club/pp/quiz/exams/list', // 修改为实际的 API 地址
+                    url: 'http://api.whalecloud.club/pp/quiz/exams/list', // API 接口
                     method: 'GET',
                     dataType: 'json',
                     success: function(response) {
-                        populateDropdown(response); // 填充下拉列表
+                        if (response.success) {
+                            populateDropdown(response.data);
+                        } else {
+                            alert('获取试卷失败: ' + response.msg);
+                        }
                     },
                     error: function() {
-                            alert('获取试卷数据失败，请稍后再试。');
-                        }
-                    });
-                }
+                        alert('网络错误，请稍后再试。');
+                         }
+                         });
+                     }
 
-                // 填充下拉列表
-                function populateDropdown(papers) {
-                    const dropdown = $('#paperSelect');
-                    dropdown.empty(); // 清空现有选项
-                    dropdown.append('<option value="">请选择试卷</option>'); // 添加默认选项
-                    $.each(papers, function(index, paper) {
-                        dropdown.append(`<option value="${paper.id}">${paper.examName}</option>`); // 添加试卷选项
-                    });
-                }
+                     // 填充下拉列表
+                     function populateDropdown(papers) {
+                         const dropdown = $('#paperSelect');
+                         dropdown.empty(); // 清空现有选项
+                         dropdown.append('<option value="">请选择试卷</option>'); // 添加默认选项
+                         $.each(papers, function(index, paper) {
+                             dropdown.append(`<option value="${paper.id}">${paper.examName}</option>`); // 添加试卷选项
+                         });
+                     }
 
-                // 开始答题
-                $('#startExam').click(function() {
-                    const selectedPaperId = $('#paperSelect').val();
-                    if (selectedPaperId) {
-                        window.location.href = `exam.html?paperId=${selectedPaperId}`; // 跳转到答题页面
-                    } else {
-                        alert('请选择一个试卷。');
-                    }
-                });
+                     // 开始答题
+                     $('#startExam').click(function() {
+                         const selectedPaperId = $('#paperSelect').val();
+                         if (selectedPaperId) {
+                             window.location.href = `exam.html?paperId=${selectedPaperId}`; // 跳转到答题页面
+                         } else {
+                             alert('请选择一个试卷。');
+                         }
+                     });
 
-                // 页面加载时获取试卷数据
-                fetchPapers();
-            });
+                     // 页面加载时获取试卷数据
+                     fetchPapers();
+                 });
         </script>
         <style>
             /* 自定义样式以确保卡片居中并响应式 */

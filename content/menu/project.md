@@ -10,7 +10,7 @@ showReadingTime = false
 +++
 {{< timeline >}}
 
-<a href="/projects/quiz/" target="_blank">
+<a href="/projects/quiz/ai在线答题首页/" target="_blank">
 {{< timelineItem icon="star" header="AI在线答题系统" badge="v1.0.0开发中..">}}
 </a>
 
