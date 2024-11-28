@@ -3,71 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>在线试卷答题-🐳鲸云工作室</title>
+    <title>AI在线答题系统-🐳鲸云工作室</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         $(document).ready(function() {
-            // 硬编码的试卷数据
-            const papers = [
-                { id: 1, title: '数学试卷' },
-                { id: 2, title: '英语试卷' },
-                { id: 3, title: '物理试卷' },
-                { id: 4, title: '化学试卷' }
-            ];
-
-            // 填充下拉列表
-            function populateDropdown(papers) {
-                const dropdown = $('#paperSelect');
-                dropdown.empty(); // 清空现有选项
-                dropdown.append('<option value="">请选择试卷</option>'); // 添加默认选项
-                $.each(papers, function(index, paper) {
-                    dropdown.append(`<option value="${paper.id}">${paper.title}</option>`); // 添加试卷选项
-                });
-            }
-
-            // 开始答题
-            $('#startExam').click(function() {
-                const selectedPaperId = $('#paperSelect').val();
-                if (selectedPaperId) {
-                    window.location.href = `exam.html?paperId=${selectedPaperId}`; // 跳转到答题页面
-                } else {
-                    alert('请选择一个试卷。');
+            // 获取试卷数据
+            function fetchPapers() {
+                $.ajax({
+                    url: 'http://api.whalecloud.club/pp/quiz/exams/list', // 修改为实际的 API 地址
+                    method: 'GET',
+                    dataType: 'json',
+                    success: function(response) {
+                        populateDropdown(response); // 填充下拉列表
+                    },
+                    error: function() {
+                            alert('获取试卷数据失败，请稍后再试。');
+                        }
+                    });
                 }
-            });
 
-            // 页面加载时填充试卷数据
-            populateDropdown(papers);
-        });
-    </script>
-    <style>
-        /* 自定义样式以确保卡片居中并响应式 */
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 60vh;
-            margin: 0; /* 去掉默认的 margin */
-            background-color: #f3f4f6; /* Tailwind的灰色背景 */
-        }
-        .card {
-            width: 90vw; /* 卡片宽度为视口宽度的90% */
-            max-width: 400px; /* 最大宽度限制 */
-            height: auto; /* 高度自适应 */
-            padding: 2rem; /* 内边距 */
-            border-radius: 0.5rem; /* 圆角 */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 阴影效果 */
-            background-color: white; /* 背景颜色 */
-        }
-    </style>
-</head>
-<body>
-    <div class="card">
-        <h1 class="text-xl font-bold mb-4 text-center">选择试卷</h1>
-        <select id="paperSelect" class="border rounded p-2 mb-4 w-full">
-            <option value="">请选择试卷</option>
-        </select>
-        <button id="startExam" class="bg-blue-500 text-white rounded p-2 w-full">开始答题</button>
-    </div>
-</body>
-</html>
+                // 填充下拉列表
+                function populateDropdown(papers) {
+                    const dropdown = $('#paperSelect');
+                    dropdown.empty(); // 清空现有选项
+                    dropdown.append('<option value="">请选择试卷</option>'); // 添加默认选项
+                    $.each(papers, function(index, paper) {
+                        dropdown.append(`<option value="${paper.id}">${paper.examName}</option>`); // 添加试卷选项
+                    });
+                }
+
+                // 开始答题
+                $('#startExam').click(function() {
+                    const selectedPaperId = $('#paperSelect').val();
+                    if (selectedPaperId) {
+                        window.location.href = `exam.html?paperId=${selectedPaperId}`; // 跳转到答题页面
+                    } else {
+                        alert('请选择一个试卷。');
+                    }
+                });
+
+                // 页面加载时获取试卷数据
+                fetchPapers();
+            });
+        </script>
+        <style>
+            /* 自定义样式以确保卡片居中并响应式 */
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0; /* 去掉默认的 margin */
+                background-color: #f3f4f6; /* Tailwind的灰色背景 */
+            }
+            .card {
+                width: 90vw; /* 卡片宽度为视口宽度的90% */
+                max-width: 400px; /* 最大宽度限制 */
+                height: auto; /* 高度自适应 */
+                padding: 2rem; /* 内边距 */
+                border-radius: 0.5rem; /* 圆角 */
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+                background-color: white; /* 背景颜色 */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h1 class="text-xl font-bold mb-4 text-center">选择试卷</h1>
+            <select id="paperSelect" class="border rounded p-2 mb-4 w-full">
+                <option value="">请选择试卷</option>
+            </select>
+            <button id="startExam" class="bg-blue-500 text-white rounded p-2 w-full">开始答题</button>
+        </div>
+    </body>
+    </html>
