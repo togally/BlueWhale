@@ -11,7 +11,7 @@ showReadingTime = false
 {{< timeline >}}
 
 <a href="/projects/quiz/" target="_blank">
-{{< timelineItem icon="star" header="在线答题" badge="v1.0.0开发中..">}}
+{{< timelineItem icon="star" header="AI在线答题系统" badge="v1.0.0开发中..">}}
 </a>
 
 目前该项目处于初期版本阶段,当前版本仅规划了上传题库文档，然后通过AI进行题目解析入库。
