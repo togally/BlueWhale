@@ -12,8 +12,10 @@
             function fetchPapers() {
                 $.ajax({
                     url: 'http://api.whalecloud.club/pp/quiz/exams/list', // API 接口
+//                    url: 'http://127.0.0.1:9001/pp/quiz/exams/list', // API 接口
                     method: 'GET',
-                    dataType: 'json',
+                    content: 'application/json',
+                    origin:'*',
                     success: function(response) {
                         if (response.success) {
                             populateDropdown(response.data);
