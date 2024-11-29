@@ -14,20 +14,16 @@
                     url: 'http://api.whalecloud.club/pp/quiz/exams/list', // API 接口
 //                    url: 'http://127.0.0.1:9001/pp/quiz/exams/list', // API 接口
                     method: 'GET',
-                    content: 'application/json',
-                    origin:'*',
                     success: function(response) {
                         if (response.success) {
                             populateDropdown(response.data);
-                        } else {
-                            alert('获取试卷失败: ' + response.msg);
                         }
                     },
                     error: function() {
-                        alert('网络错误，请稍后再试。');
+                        alert('未获取到试卷,请联系管理员。');
                          }
-                         });
-                     }
+                    });
+             }
 
                      // 填充下拉列表
                      function populateDropdown(papers) {
